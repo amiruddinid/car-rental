@@ -4,7 +4,7 @@ import React from 'react'
 export default function ProfileView() {
   return (
     <View>
-      <Text>ProfileView</Text>
+      <Text>PancegLampahDinaGalur</Text>
     </View>
   )
 }
