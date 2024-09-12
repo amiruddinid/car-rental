@@ -9,7 +9,7 @@ import {
 import { fonts, colors } from '../../styles';
 import { Text } from '../../components/StyledText';
 
-export default function HomeScreen({ isExtended, setIsExtended }) {
+export default function auth({ isExtended, setIsExtended }) {
   // const rnsUrl = 'https://reactnativestarter.com';
   // const handleClick = () => {
   //   Linking.canOpenURL(rnsUrl).then(supported => {
@@ -38,7 +38,7 @@ export default function HomeScreen({ isExtended, setIsExtended }) {
             The smartest Way to build your mobile app
           </Text>
           <Text size={30} bold white style={styles.title}>
-            Mr zaenal & mr achmad
+            React Native Starter
           </Text>
         </View>
         <View style={[styles.section, styles.sectionLarge]}>
