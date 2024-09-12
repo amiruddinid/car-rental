@@ -37,8 +37,11 @@ export default function HomeScreen({ isExtended, setIsExtended }) {
           <Text color="#19e7f7" size={15}>
             The smartest Way to build your mobile app
           </Text>
-          <Text size={30} bold white style={styles.title}>
-            React Native Starter
+          <Text size={30} 
+            bold 
+            white 
+            style={styles.title}>
+            React Native Starter Test
           </Text>
         </View>
         <View style={[styles.section, styles.sectionLarge]}>
